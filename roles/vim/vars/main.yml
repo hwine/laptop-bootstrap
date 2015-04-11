@@ -1,0 +1,6 @@
+---
+  vim_directories:
+    - bundle
+
+  bundle_names:
+    - { name: Vundle.vim, url: 'https://github.com/gmarik/Vundle.vim.git' }

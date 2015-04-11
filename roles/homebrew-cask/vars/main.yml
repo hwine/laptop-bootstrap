@@ -1,12 +1,15 @@
 ---
  homebrew_cask_packages:
+  - keepassx0
+  - google-drive
+  - viscosity
+
+
+ temp_undo:
   - alfred
   - appcleaner
-  - caffeine
   - bettertouchtool
   - dropbox
-  - google-japanese-ime
-  - evernote
   - google-chrome
   - firefox
   - opera
@@ -15,7 +18,6 @@
   - virtualbox
   - vagrant
   - sourcetree
-  - dash
   - xquartz
   - sequel-pro
   - mysqlworkbench
@@ -24,8 +26,6 @@
   - imageoptim
   - vlc
   - ifunbox
-  - libreoffice
-  - java
   - the-unarchiver
   - qlstephen
   - qlmarkdown

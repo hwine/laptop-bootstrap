@@ -4,5 +4,6 @@
   gather_facts: no
   sudo: no
   roles:
-    - homebrew
-    - homebrew-cask
+    - { role: homebrew, tags: cli }
+    - { role: homebrew-cask, tags: apps }
+    - { role: vim, tags: vim }
