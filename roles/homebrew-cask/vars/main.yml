@@ -32,3 +32,4 @@
   - qlcolorcode
   - qlrest
   - thunderbird
+  - growlnotify  # needs sudo to run pkg installer, growl install via app store
