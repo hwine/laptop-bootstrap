@@ -7,3 +7,4 @@
     - { role: homebrew, tags: cli }
     - { role: homebrew-cask, tags: apps }
     - { role: vim, tags: vim }
+    - { role: python, tags: python }

@@ -1,11 +1,9 @@
+# App installs via Homebrew
 ---
  homebrew_cask_packages:
   - keepassx0
   - google-drive
   - viscosity
-
-
- temp_undo:
   - alfred
   - appcleaner
   - bettertouchtool
@@ -32,3 +30,5 @@
   - quicklook-csv
   - quicklook-json
   - qlcolorcode
+  - qlrest
+  - thunderbird

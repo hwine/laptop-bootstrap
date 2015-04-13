@@ -1,0 +1,6 @@
+---
+  pyenv_versions:
+    - pypy-2.5.1
+    - 3.4.3
+
+  pyenv_virtualenvs:

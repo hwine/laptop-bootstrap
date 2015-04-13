@@ -1,0 +1,6 @@
+# Set up all the python environment, pyenv already installed
+---
+  - name: build pythons
+    command: pyenv install "{{ item }}"
+    with_items: pyenv_versions
+

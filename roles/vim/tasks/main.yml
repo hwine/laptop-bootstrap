@@ -5,11 +5,11 @@
     register: file
     with_items: vim_directories
 
-  - name: install bundles
+  - name: bootstrap vundle itself
     git: 
       repo={{ item.url }}
       dest={{ lookup('env', 'HOME') }}/.vim/bundle/{{ item.name }}
     with_items: bundle_names
 
   - name: install vim plugins
-    command: vim -u NONE +PluginInstall +qall
+    command: vim +PluginInstall +qall
