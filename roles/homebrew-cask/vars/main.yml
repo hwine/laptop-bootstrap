@@ -33,3 +33,5 @@
   - qlrest
   - thunderbird
   - growlnotify  # needs sudo to run pkg installer, growl install via app store
+  - gpgtools # pkg install, asks for sudo password
+  - geektool

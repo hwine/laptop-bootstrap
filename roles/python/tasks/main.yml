@@ -2,5 +2,7 @@
 ---
   - name: build pythons
     command: pyenv install "{{ item }}"
+    args:
+        creates: "{{ lookup('env', 'HOME') }}/.pyenv/versions/{{ item }}"
     with_items: pyenv_versions
 
