@@ -22,3 +22,4 @@
   - { name: wget }
   - { name: pyenv }
   - { name: pyenv-virtualenv }
+  - { name: mercurial }

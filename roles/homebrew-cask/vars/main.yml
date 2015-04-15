@@ -9,7 +9,7 @@
   - bettertouchtool
   - dropbox
   - google-chrome
-  - firefox
+    # - firefox I don't install firefox this way, as I want beta channel
   - opera
   - sublime-text3
   - iterm2
@@ -35,3 +35,4 @@
   - growlnotify  # needs sudo to run pkg installer, growl install via app store
   - gpgtools # pkg install, asks for sudo password
   - geektool
+  - macvim
