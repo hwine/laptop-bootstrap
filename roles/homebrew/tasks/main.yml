@@ -16,3 +16,10 @@
      state: latest
      install_options: "{{ item.install_options|default() }}"
    with_items: homebrew_packages
+
+ - name: Modify bash profile
+   lineinfile: 
+     dest: "{{ lookup('env', 'HOME') }}/.bash_profile"
+     line: "{{ item.line|default() }}"
+     backup: yes
+   with_items: homebrew_packages

@@ -20,7 +20,7 @@
   - { name: awscli }
   - { name: vim }
   - { name: wget }
-  - { name: pyenv }
-  - { name: pyenv-virtualenv }
+  - { name: pyenv, line: "eval \"$(pyenv init -)\""}
+  - { name: pyenv-virtualenv, line: "eval \"$(pyenv virtualenv-init -)\"" }
   - { name: mercurial }
   - { name: cvs }
