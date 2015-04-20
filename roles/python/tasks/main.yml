@@ -6,3 +6,13 @@
         creates: "{{ lookup('env', 'HOME') }}/.pyenv/versions/{{ item }}"
     with_items: pyenv_versions
 
+  - name: create virtual envs
+    debug: Not done yet
+
+  - name: populate venvs (3 steps)
+    copy: src=roles/python/files/{{ item.req_file }} dest=/tmp/{{ item.req_file }}
+    with_items: pyenv_virtualenvs
+  - shell: PYENV_VERSION={{ item.name }}  pip install -r /tmp/{{ item.req_file }}
+    with_items: pyenv_virtualenvs
+  - file: dest=/tmp/{{ item.req_file }} state=absent
+    with_items: pyenv_virtualenvs

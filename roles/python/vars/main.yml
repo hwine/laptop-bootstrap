@@ -4,3 +4,4 @@
     - 3.4.3
 
   pyenv_virtualenvs:
+    - { name: 'system', req_file: main-req.txt }
