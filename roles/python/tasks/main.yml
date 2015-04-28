@@ -6,8 +6,15 @@
         creates: "{{ lookup('env', 'HOME') }}/.pyenv/versions/{{ item }}"
     with_items: pyenv_versions
 
+  - name: set default versions
+    command: pyenv global {{ pyenv_default_versions }}
+
   - name: create virtual envs
-    debug: Not done yet
+    command: pyenv virtualenv {{ item.name }}
+    args:
+        creates: "{{ lookup('env', 'HOME') }}/.pyenv/versions/{{ item.name }}"
+    with_items: pyenv_virtualenvs
+
 
   - name: populate venvs (3 steps)
     copy: src=roles/python/files/{{ item.req_file }} dest=/tmp/{{ item.req_file }}

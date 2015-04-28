@@ -2,6 +2,11 @@
   pyenv_versions:
     - pypy-2.5.1
     - 3.4.3
+    - 3.3.6
 
   pyenv_virtualenvs:
     - { name: 'system', req_file: main-req.txt }
+    - { name: 'fabric', req_file: fabric-req.txt }
+
+  pyenv_default_versions:
+      system 3.4.3 3.3.6 pypy-2.5.1
