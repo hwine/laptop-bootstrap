@@ -24,3 +24,4 @@
   - { name: pyenv-virtualenv, line: "eval \"$(pyenv virtualenv-init -)\"" }
   - { name: mercurial }
   - { name: cvs }
+  - { name: hub }
