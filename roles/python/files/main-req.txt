@@ -4,3 +4,4 @@ sphinxcontrib-actdiag
 sphinxcontrib-blockdiag
 hieroglyph
 tox
+doc8
