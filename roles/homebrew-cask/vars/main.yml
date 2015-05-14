@@ -36,7 +36,7 @@
   - gpgtools # pkg install, asks for sudo password
   - geektool
   - macvim
-  - firefox-profilemanager # still in my repo
+  - profilemanager
     # firefox
     # firefox-beta
   - firefox-nightly

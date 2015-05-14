@@ -25,3 +25,4 @@
   - { name: mercurial }
   - { name: cvs }
   - { name: hub }
+  - { name: yajl }

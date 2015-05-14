@@ -3,6 +3,8 @@
    homebrew:
      update_homebrew: yes
      upgrade_all: yes
+   tags:
+      - update
 
  - name: brew tap
    homebrew_tap:
