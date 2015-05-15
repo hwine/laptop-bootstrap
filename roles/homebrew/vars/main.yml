@@ -27,3 +27,4 @@
   - { name: hub }
   - { name: yajl }
   - { name: mtr }
+  - { name: csshx }
