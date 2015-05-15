@@ -26,3 +26,4 @@
   - { name: cvs }
   - { name: hub }
   - { name: yajl }
+  - { name: mtr }
