@@ -28,3 +28,4 @@
   - { name: yajl }
   - { name: mtr }
   - { name: csshx }
+  - { name: q }
