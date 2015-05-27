@@ -5,3 +5,4 @@ sphinxcontrib-blockdiag
 hieroglyph
 tox
 doc8
+keyring

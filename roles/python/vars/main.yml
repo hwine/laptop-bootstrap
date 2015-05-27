@@ -1,3 +1,4 @@
+Note: default packages are set in ../files/*txt
 ---
   pyenv_versions:
     - pypy-2.5.1
