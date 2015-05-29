@@ -1,3 +1,4 @@
+bumpversion
 sh
 sphinx
 sphinxcontrib-actdiag
