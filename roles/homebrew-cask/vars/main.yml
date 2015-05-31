@@ -1,6 +1,7 @@
 # App installs via Homebrew
 ---
  homebrew_cask_packages:
+  - bittorrent-sync
   - cscreen
   - keepassx0
   - google-drive
