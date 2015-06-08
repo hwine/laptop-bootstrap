@@ -1,6 +1,7 @@
 # App installs via Homebrew
 ---
  homebrew_cask_packages:
+  - libreoffice
   - bittorrent-sync
   - cscreen
   - keepassx0
