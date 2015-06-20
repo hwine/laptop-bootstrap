@@ -7,6 +7,7 @@
    # - homebrew/php
 
  homebrew_packages:
+  - { name: android-sdk }
   - { name: bash-completion, line: "source $(brew --prefix)/etc/bash_completion" }
   - { name: brew-cask }
   - { name: git-flow }
