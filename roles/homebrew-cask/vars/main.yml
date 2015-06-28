@@ -1,6 +1,7 @@
 # App installs via Homebrew
 ---
  homebrew_cask_packages:
+  - android-file-transfer
   - libreoffice
   - bittorrent-sync
   - cscreen
