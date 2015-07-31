@@ -7,6 +7,7 @@
    # - homebrew/php
 
  homebrew_packages:
+  - { name: gist }
   - { name: android-sdk }
   - { name: bash-completion, line: "source $(brew --prefix)/etc/bash_completion" }
   - { name: brew-cask }
