@@ -1,6 +1,8 @@
 # App installs via Homebrew
 ---
  homebrew_cask_packages:
+     # java needed for fxos dogfood
+  - java
   - telegram
   - android-file-transfer
   - libreoffice
