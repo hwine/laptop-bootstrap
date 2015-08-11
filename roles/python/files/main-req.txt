@@ -7,3 +7,4 @@ hieroglyph
 tox
 doc8
 keyring
+requests
