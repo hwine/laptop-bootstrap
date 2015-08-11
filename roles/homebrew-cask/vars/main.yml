@@ -1,6 +1,8 @@
 # App installs via Homebrew
 ---
  homebrew_cask_packages:
+     # horndis needed for USB tethering
+  - horndis
      # java needed for fxos dogfood
   - java
   - telegram
