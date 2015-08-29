@@ -8,3 +8,4 @@ tox
 doc8
 keyring
 requests
+PyYAML
