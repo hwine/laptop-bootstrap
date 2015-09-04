@@ -9,3 +9,4 @@ doc8
 keyring
 requests
 PyYAML
+httpie
