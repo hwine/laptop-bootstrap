@@ -7,6 +7,7 @@
    # - homebrew/php
 
  homebrew_packages:
+  - { name: npm }
   - { name: golang, line: "export GOPATH=$HOME/go" }
   - { name: gist }
   - { name: android-sdk }
