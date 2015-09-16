@@ -1,3 +1,4 @@
+mercurial
 bumpversion
 sh
 sphinx

@@ -27,7 +27,6 @@
   - { name: wget }
   - { name: pyenv, line: "eval \"$(pyenv init -)\""}
   - { name: pyenv-virtualenv, line: "eval \"$(pyenv virtualenv-init -)\"" }
-  - { name: mercurial }
   - { name: cvs }
   - { name: hub }
   - { name: yajl }
