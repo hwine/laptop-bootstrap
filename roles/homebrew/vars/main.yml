@@ -8,10 +8,10 @@
 
  homebrew_packages:
   - { name: npm }
-  - { name: golang, line: "export GOPATH=$HOME/go" }
+  - { name: golang, profile_line: "export GOPATH=$HOME/go" }
   - { name: gist }
   - { name: android-sdk }
-  - { name: bash-completion, line: "source $(brew --prefix)/etc/bash_completion" }
+  - { name: bash-completion, rc_line: "source $(brew --prefix)/etc/bash_completion" }
   - { name: brew-cask }
   - { name: git-flow }
   - { name: nkf }
@@ -25,8 +25,8 @@
   - { name: awscli }
   - { name: vim }
   - { name: wget }
-  - { name: pyenv, line: "eval \"$(pyenv init -)\""}
-  - { name: pyenv-virtualenv, line: "eval \"$(pyenv virtualenv-init -)\"" }
+  - { name: pyenv, rc_line: "eval \"$(pyenv init -)\""}
+  - { name: pyenv-virtualenv, rc_line: "eval \"$(pyenv virtualenv-init -)\"" }
   - { name: cvs }
   - { name: hub }
   - { name: yajl }
