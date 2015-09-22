@@ -22,7 +22,6 @@
   - { name: coreutils }
   - { name: reattach-to-user-namespace }
   - { name: heroku-toolbelt }
-  - { name: awscli }
   - { name: vim }
   - { name: wget }
   - { name: pyenv, rc_line: "eval \"$(pyenv init -)\""}
