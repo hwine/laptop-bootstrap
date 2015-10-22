@@ -7,6 +7,7 @@
    # - homebrew/php
 
  homebrew_packages:
+  - { name: cmake } # needed for YouCompleteMe vundle
   - { name: npm }
   - { name: golang, profile_line: "export GOPATH=$HOME/go" }
   - { name: gist }
