@@ -44,7 +44,6 @@
   - growlnotify  # needs sudo to run pkg installer, growl install via app store
   - gpgtools # pkg install, asks for sudo password
   - geektool
-  - macvim
   - profilemanager
     # firefox
     # firefox-beta
