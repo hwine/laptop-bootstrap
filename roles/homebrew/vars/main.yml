@@ -7,6 +7,11 @@
    # - homebrew/php
 
  homebrew_packages:
+  - { name: docker }
+  - { name: docker-machine }
+  - { name: docker-compose }
+  - { name: mysql } # needed for bb-config testing
+  - { name: sqlite }
   - { name: cmake } # needed for YouCompleteMe vundle
   - { name: npm }
   - { name: golang, profile_line: "export GOPATH=$HOME/go" }
