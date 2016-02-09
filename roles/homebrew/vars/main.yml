@@ -7,6 +7,8 @@
    # - homebrew/php
 
  homebrew_packages:
+  - { name: pandoc }
+  - { name: watchman }
   - { name: docker }
   - { name: docker-machine }
   - { name: docker-compose }
