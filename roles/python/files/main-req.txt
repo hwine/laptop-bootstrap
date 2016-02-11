@@ -12,3 +12,6 @@ keyring
 requests
 PyYAML
 httpie
+# pin to keep compatible with v-c-t and debugger
+ansible==1.9.0.1
+ansible-playbook-debugger
