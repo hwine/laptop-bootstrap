@@ -2,7 +2,7 @@
 - hosts: localhost
   connection: local
   gather_facts: no
-  sudo: no
+  become: no
   roles:
     - { role: apple, tags: initial }
     - { role: homebrew, tags: cli }
