@@ -7,6 +7,7 @@
    # - homebrew/php
 
  homebrew_packages:
+  - { name: lastpass-cli, install_options: "with-pinentry,with-doc" }
   - { name: pandoc }
   - { name: watchman }
   - { name: docker }
