@@ -4,6 +4,7 @@
      # we'd like to install osxfuse, but it doesn't have an option for
      # macfuse compatibility layer (needed by VeraCrypt)
      # - osxfuse
+  - dockertoolbox
      # horndis needed for USB tethering
   - horndis
      # java needed for fxos dogfood
