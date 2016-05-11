@@ -8,6 +8,7 @@
 
  homebrew_packages:
   - { name: lastpass-cli, install_options: "with-pinentry,with-doc" }
+  - { name: pass }
   - { name: pandoc }
   - { name: watchman }
   - { name: docker }
