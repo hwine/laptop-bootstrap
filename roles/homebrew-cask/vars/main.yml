@@ -4,11 +4,6 @@
      # we'd like to install osxfuse, but it doesn't have an option for
      # macfuse compatibility layer (needed by VeraCrypt)
      # - osxfuse
-  - dockertoolbox
-     # horndis needed for USB tethering
-  - horndis
-     # java needed for fxos dogfood
-  - java
   - telegram
   - android-file-transfer
   - libreoffice
@@ -23,7 +18,6 @@
   - dropbox
   - google-chrome
     # - firefox I don't install firefox this way, as I want beta channel
-  - opera
   - sublime-text3
   - iterm2
   - virtualbox
@@ -54,5 +48,4 @@
   - firefox-nightly
   - firefoxdeveloperedition
   - multifirefox
-  - githubpulse
   - graphviz
