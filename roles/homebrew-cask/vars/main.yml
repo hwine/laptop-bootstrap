@@ -9,7 +9,7 @@
   - libreoffice
   - bittorrent-sync
   - cscreen
-  - keepassx0
+  - keepassx
   - google-drive
   - viscosity
   - alfred
@@ -18,7 +18,7 @@
   - dropbox
   - google-chrome
     # - firefox I don't install firefox this way, as I want beta channel
-  - sublime-text3
+  - sublime-text
   - iterm2
   - virtualbox
   - vagrant
@@ -45,7 +45,7 @@
   - profilemanager
     # firefox
     # firefox-beta
-  - firefox-nightly
+  - firefoxnightly
   - firefoxdeveloperedition
   - multifirefox
   - graphviz
