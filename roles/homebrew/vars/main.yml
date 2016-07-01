@@ -11,9 +11,6 @@
   - { name: pass }
   - { name: pandoc }
   - { name: watchman }
-  - { name: docker }
-  - { name: docker-machine }
-  - { name: docker-compose }
   - { name: mysql } # needed for bb-config testing
   - { name: sqlite }
   - { name: cmake } # needed for YouCompleteMe vundle
