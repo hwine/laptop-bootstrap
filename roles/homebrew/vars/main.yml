@@ -6,6 +6,9 @@
    - homebrew/binary
 
  homebrew_packages:
+  - { name: neovim/neovim/neovim }
+  - { name: aspell }  # install before weechat to get dictionaries to load
+  - { name: weechat, install_options: "with-aspell,with-curl,with-python,with-perl,with-ruby,with-lua,with-guile" }
   - { name: youtube-dl }
   - { name: lastpass-cli, install_options: "with-pinentry,with-doc" }
   - { name: pass }
