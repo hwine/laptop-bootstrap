@@ -2,6 +2,8 @@
 ---
   - name: build pythons
     command: pyenv install "{{ item }}"
+    environment:
+      PYTHON_CONFIGURE_OPTS: "{{ lookup('env', 'PYTHON_CONFIGURE_OPTS')}} --enable-framework"
     args:
         creates: "{{ lookup('env', 'HOME') }}/.pyenv/versions/{{ item }}"
     with_items: pyenv_versions
@@ -14,6 +16,8 @@
     args:
         creates: "{{ lookup('env', 'HOME') }}/.pyenv/versions/{{ item.name }}"
     with_items: pyenv_virtualenvs
+  - name: verify pip (i.e. fix if broken)
+    command: easy_install pip
 
 
   - name: populate venvs (3 steps)
