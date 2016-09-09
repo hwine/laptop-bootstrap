@@ -6,6 +6,7 @@
    - homebrew/binary
 
  homebrew_packages:
+  - { name: entr }
   - { name: neovim/neovim/neovim }
   - { name: aspell }  # install before weechat to get dictionaries to load
   - { name: weechat, install_options: "with-aspell,with-curl,with-python,with-perl,with-ruby,with-lua,with-guile" }
